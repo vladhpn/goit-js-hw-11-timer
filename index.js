@@ -12,6 +12,8 @@ const refs = {
   timerFace: document.getElementById('timer-1'),
 };
 
+console.log('test!!!!!!');
+
 class CountdownTimer {
   constructor({ selector, targetDate }) {
     this.selector = selector;
