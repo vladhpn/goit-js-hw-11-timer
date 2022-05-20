@@ -1,9 +1,5 @@
 'use strict';
 
-
-cosnoel.log('122321');
-
-
 const refs = {
   days: document.querySelector('.value[data-value="days"]'),
   hours: document.querySelector('.value[data-value="hours"]'),
@@ -11,8 +7,6 @@ const refs = {
   secs: document.querySelector('.value[data-value="secs"]'),
   timerFace: document.getElementById('timer-1'),
 };
-
-console.log('test!!!!!!');
 
 class CountdownTimer {
   constructor({ selector, targetDate }) {
